@@ -1,13 +1,12 @@
 <script>
-    import Counter from "./lib/components/Counter.svelte";
-    import Basic from "./lib/components/layouts/Basic.svelte";
+  import Basic from "./lib/components/layouts/Basic.svelte";
+  import Clusters from "./pieces/Clusters.svelte";
 </script>
 
 
 <Basic>
   <div>
-    <span>This is the Counter Component</span>
-    <Counter />
+    <Clusters />
   </div>
 </Basic>
 
