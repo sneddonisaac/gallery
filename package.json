@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "format lint vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "format": "prettier --write '{public,src}/**/*.{css,scss,html,js,svelte}'",
     "lint": "eslint --fix --quiet src --ext .js,.svelte"
